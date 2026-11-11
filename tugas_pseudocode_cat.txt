@@ -1,0 +1,18 @@
+PROGRAM_Hitung_Biaya_Pengecatan_Tembok
+(Program untuk menghitung estimasi biaya pengecatan tembok berbentuk persegi panjang)
+
+KAMUS DATA: 
+    panjang     : real
+    tinggi      : real
+    harga_cat   : real
+    luas        : real
+    total_biaya : real
+
+ALGORITMA:
+    read(panjang)
+    read(tinggi)
+    read(harga)
+    luas <- * tinggi
+    total_biaya <- luas * harga_cat
+    write(luas)
+    write(total_biaya)
